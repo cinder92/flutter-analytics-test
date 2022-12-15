@@ -4,13 +4,18 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+`Download your google-services.json & GoogleService-Info.plist and add it into correct folder`
 
-A few resources to get you started if this is your first Flutter project:
+then run `cd ios & pod install --repo-update`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+finally `flutter run`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Appsflyer
+
+For iOS app must be submitted to testflight to get the appID, so then you can create the app on Appsflyer dashboard.
+https://support.appsflyer.com/hc/en-us/articles/207377436-Adding-a-new-app#ios-tvos-macos
+
+For Android you only need the app bundle to be ready to go.
+https://support.appsflyer.com/hc/en-us/articles/207377436-Adding-a-new-app#android-androidtv-fire
+
+NOTE: Appsflyer needs to approve your app before start sending events.

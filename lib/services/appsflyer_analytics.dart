@@ -3,7 +3,7 @@ import 'package:appsflyer_sdk/appsflyer_sdk.dart';
 // OFFICIAL SUPPORT IN https://pub.dev/packages/appsflyer_sdk
 
 String DEV_KEY = "";
-String APP_ID = "";
+String APP_ID = ""; // NEED FOR IOS
 bool IN_DEBUG = true;
 
 class AppsFlyerAnalytics {
@@ -12,7 +12,7 @@ class AppsFlyerAnalytics {
   Future<void> init() async {
     final AppsFlyerOptions options = AppsFlyerOptions(
       afDevKey: DEV_KEY,
-      //appId: APP_ID,
+      appId: APP_ID,
       showDebug: IN_DEBUG,
     );
 
